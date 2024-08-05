@@ -116,12 +116,6 @@ body{
     text-decoration: none;
 }
 
-
-
-
-
-
-
 .m4{
     text-align: center;
     border: 1px solid #fff;
@@ -151,4 +145,37 @@ body{
 .m4 p{
     font: 500 14px 'Roboto';
     margin-top: 15px;
+}
+
+.m5{
+    text-align: center;
+    border: 1px solid #fff;
+    height: 158px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 215px;
+    margin-top: 25px;
+    margin-left: 42vh;
+    margin-top: -20vh;
+}
+
+.b5{
+    margin-left: 75px;
+    border: 1px solid #130fff;
+    width: 60px;
+    height: 60px;
+    background-color: #130fff;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+
+.m5 h6{
+    font: 900 15px 'Roboto';
+    margin-top: 15px;
+}
+
+.m5 p{
+    font: 500 14px 'Roboto';
+    margin-top: 15px;
+    color: #000;
 }
