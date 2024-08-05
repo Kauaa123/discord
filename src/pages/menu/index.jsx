@@ -74,7 +74,17 @@ export default function Frei() {
 
                         <Link className='a' to='/e5'><p>Exercicio 05</p> </Link> 
                     
-                </div>
+            </div>
+
+            <div className="m6">
+                    <div className="b6">
+                        
+                    </div>
+                    <h6 className='b'>Calculando o salário</h6>
+
+                        <Link className='a' to='/e6'><p>Exercicio 06</p> </Link> 
+                    
+            </div>
         </div>
     )
 }
