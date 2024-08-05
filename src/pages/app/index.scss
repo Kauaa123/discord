@@ -1,0 +1,62 @@
+body{
+    background-color: #F5F6FA;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    background-color: #6278F7;
+    color: #fff;
+    gap: 15px;
+    height: 90px;
+}
+.inicio{
+    margin-top: 34px;
+    font: 100 20px 'Roboto';
+    color: #fff;
+    text-decoration: none;
+}
+
+.sobre{
+    margin-top: 34px;
+    font: 100 20px 'Roboto';
+    color: #fff;
+    text-decoration: none;
+}
+
+.s{
+    display: flex;
+    margin-left: 110vh;
+    gap: 10px;
+    color: #fff;
+}
+.frei{
+    width: 51.52px;
+    margin-left: 50px;
+    height: 60px;
+    margin-top: 15px;
+}
+
+.frei2{
+    width: 120px;
+    margin-top: 7vh;
+}
+
+.texto h6{
+    font: 100 23px 'Roboto';
+    font-weight: bold;
+    margin-left: 7vh;
+    margin-top: 5vh;
+}
+
+.frase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 7vh;
+}
+
+.frase p{
+    font: 100 29px 'Roboto';
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: #F5F6FA;
+}
+
+.frei2{
+    width: 120px;
+    margin-top: 7vh;
+}
+
+.texto h6{
+    font: 100 23px 'Roboto';
+    font-weight: bold;
+    margin-left: 7vh;
+    margin-top: 5vh;
+}
+
+.frase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 7vh;
+}
+
+.frase p{
+    font: 100 29px 'Roboto';
+}
