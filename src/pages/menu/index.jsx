@@ -45,9 +45,9 @@ export default function Frei() {
                         <Link className='a' to='/e3'><p>Exercicio 03</p> </Link> 
                     
                 </div>
-            </div>      
+                  
 
-            <div className="botoes2">
+            
                 <div className="m4">
                     <div className="b4">
                         
