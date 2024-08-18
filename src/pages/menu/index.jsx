@@ -57,7 +57,7 @@ export default function Frei() {
                         <Link className='a' to='/e4'><p>Exercicio 04</p> </Link> 
                     
                     </div>
-            </div>
+            
 
 
 
@@ -71,7 +71,7 @@ export default function Frei() {
                     
             </div>
             </div>
-            
+        </div>
         </div>
     )
 }
