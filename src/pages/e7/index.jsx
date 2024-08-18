@@ -93,22 +93,16 @@ export default function Exercicio7() {
             
             <div className="marz">
                 <div className="q2">
-                    <h3>Peso (kg)</h3>
+                    <h3>Peso</h3>
                     <div className="bola1">
                         <input 
-                            className="botao1" 
-                            type="number" 
-                            value={peso} 
-                            onChange={e => setPeso(Number(e.target.value))} 
+                            className="botao1" type="number" value={peso} onChange={e => setPeso(Number(e.target.value))} 
                         />
                     </div>
-                    <h4>Altura (cm)</h4>
+                    <h4>Altura</h4>
                     <div className="bola2">
                         <input 
-                            className="botao2" 
-                            type="number" 
-                            value={altura} 
-                            onChange={e => setAltura(Number(e.target.value))} 
+                            className="botao2" type="number" value={altura} onChange={e => setAltura(Number(e.target.value))} 
                         />
                     </div>
                     <button className="b" onClick={calculo}>Executar</button>

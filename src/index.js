@@ -11,7 +11,7 @@ import Exercicio4 from './pages/e4/e4.jsx';
 import Exercicio3 from './pages/e3/e3.jsx';
 import Exercicio2 from './pages/e2/e2.jsx';
 import Exercicio1 from './pages/e1/e1.jsx';
-import cabecalho from './components/cabecalho/index.jsx';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
