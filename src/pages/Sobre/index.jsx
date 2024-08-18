@@ -1,21 +1,12 @@
 import "./index.scss"; 
 import {Link} from 'react-router-dom'
+import Cabecalho from  "../../components/cabecalho"
 
 export default function App() {
     return (
 
     <div className="mae11">
-        <div className="cabecalho">
-            <img className='frei' src="https://s3-alpha-sig.figma.com/img/7bae/1168/0bf1e929fef0bf14e7f0bc09da2392a4?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=deRW01aZ8QlX02JdwXqNP9Re9RqiuZr~ijLH8P7wkwsC5pPenu7WuCGPEsmOx~YIMYntU4y6xm0JxADzNboT-9VnXCQNgj8B8aJx1EhPpddRprcTXKrQSE7IUQBu0zJjBswbSZ3i2q69M-~awJlXCpFXeX1Ai-drJbMb~V6w-82VtvvVSC6pigmBqsv17UTALqtxkLkeQExgsXrgr8glccU7QgcebeJcsbdCPnk8pYFcJgjCwimKaah4PMl2S~DYuKuAu0z6CUIndQcl7j0mKLXFiiUB9cGjvLwlfeW6l~AKuofQpQcKKNBqseqWB4QFG88bSPtT6Cwunbc5nq4Mvw__" alt="" />
-
-            <p>React FreiS</p>
-
-            <div className="s">
-                <Link className="inicio" to='/'>Inicio</Link>
-                <Link className="sobre" to='/Frei'>Sobre</Link>
-            </div>
-        </div>
-
+        <Cabecalho />
         <div className="texto">
             <h6>Sobre</h6>
         </div>

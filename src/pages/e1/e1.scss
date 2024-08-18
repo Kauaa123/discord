@@ -27,22 +27,31 @@
     #FFCE37;
     margin-top: 2vh;
     }
-
-    .quadrado{
-    border: #fff;
-    background-color: #fff;
-    width: 1275px;
-    height: 213px;
-    margin-top: 4vh;
-    border-radius: 12px;
-    box-shadow: 0px 0px 14px 1px rgba(173, 173, 173, 0.25);
+    .cont{
+        display: flex;
+        justify-content: center;
+       .quadrado {
+        border: #fff;
+        background-color: #fff;
+        width: 100%; /* Ajusta para uma largura relativa ao contêiner pai */
+        max-width: 1275px; /* Define uma largura máxima */
+        height: 213px;
+        margin-top: 4vh;
+        border-radius: 12px;
+        box-shadow: 0px 0px 14px 1px rgba(173, 173, 173, 0.25);
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
+
 
     .quadrado p{
     font: 500 16px 'Roboto';
     text-align: center;
     padding-top: 98px;
+    } 
     }
+    
 
     .hz{
         font: 700 26px 'Roboto';
@@ -98,6 +107,7 @@
 
     .rodape{
         display: flex;
+        align-items: center;
         flex-direction: column;
         border: 1px solid #fff;
         background-color: #fff;
@@ -106,7 +116,6 @@
         height: 295px;
         border-radius: 12px;
         box-shadow: 0px 0px 14px 1px rgba(173, 173, 173, 0.25);
-        margin-left: 55vh;
         margin-top: 3vh;
     }
 
@@ -133,7 +142,7 @@
     }
     
     .botaozin3{
-        
+        position: absolute;
         background-color: #6278F7;
         color: #fff;
         border: 0px solid #6278F7;
@@ -141,7 +150,7 @@
         width: 216px;
         height: 50px;
         font: 700 16px 'Roboto';
-        transform: translate(23vh, 6.5vh);
+        transform: translate(11vh, 24vh);
         }
 
         .ar{
@@ -153,8 +162,14 @@
         }
 
         .h{
-            margin-left: 94vh;
-            margin-top: 2vh;
+            margin-left: 40vh;
             font: 700 18px 'Roboto';
+        }
+
+        .mae2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 }

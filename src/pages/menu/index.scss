@@ -110,6 +110,11 @@ body{
     gap: 8vh;
     margin-left: 60px;
 }
+.botoes2{
+    display:flex;
+    margin-top: 25px;
+    margin-left: 6vh;
+}
 
 .a{
     font: 500 14px 'Roboto';
@@ -123,8 +128,7 @@ body{
     background-color: #fff;
     border-radius: 20px;
     width: 215px;
-    margin-top: 25px;
-    margin-left: 8vh;
+
 }
 
 .b4{
@@ -147,81 +151,6 @@ body{
     margin-top: 15px;
 }
 
-.m5{
-    text-align: center;
-    border: 1px solid #fff;
-    height: 158px;
-    background-color: #fff;
-    border-radius: 20px;
-    width: 215px;
-    margin-top: 25px;
-    margin-left: 42vh;
-    margin-top: -20vh;
-}
-
-.b5{
-    margin-left: 75px;
-    border: 1px solid #130fff;
-    width: 60px;
-    height: 60px;
-    background-color: #130fff;
-    margin-top: 10px;
-    border-radius: 12px;
-}
-
-.m5 h6{
-    font: 900 15px 'Roboto';
-    margin-top: 15px;
-}
-
-.m5 p{
-    font: 500 14px 'Roboto';
-    margin-top: 15px;
-    color: #000;
-}
-
-
-
-
-
-
-.m6{
-    text-align: center;
-    border: 1px solid #fff;
-    height: 158px;
-    background-color: #fff;
-    border-radius: 20px;
-    width: 215px;
-    margin-top: 25px;
-    margin-left: 77vh;
-    margin-top: -20vh;
-}
-
-.b6{
-    margin-left: 75px;
-    border: 1px solid #dd2232;
-    width: 60px;
-    height: 60px;
-    background-color: #dd2232   ;
-    margin-top: 10px;
-    border-radius: 12px;
-}
-
-.m6 h6{
-    font: 900 15px 'Roboto';
-    margin-top: 15px;
-}
-
-.m6 p{
-    font: 500 14px 'Roboto';
-    margin-top: 15px;
-    color: #000;
-}
-
-
-
-
-
 
 
 
@@ -234,8 +163,8 @@ body{
     background-color: #fff;
     border-radius: 20px;
     width: 215px;
-    margin-left: 8vh;
-    margin-top: 5vh;
+    margin-left: 6vh;
+    margin-top: 2vh;
 }
 
 .b7{
