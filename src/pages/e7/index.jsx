@@ -100,8 +100,6 @@ export default function Exercicio7() {
                             type="number" 
                             value={peso} 
                             onChange={e => setPeso(Number(e.target.value))} 
-                            min="0" 
-                            step="any" 
                         />
                     </div>
                     <h4>Altura (cm)</h4>
@@ -111,8 +109,6 @@ export default function Exercicio7() {
                             type="number" 
                             value={altura} 
                             onChange={e => setAltura(Number(e.target.value))} 
-                            min="0" 
-                            step="any" 
                         />
                     </div>
                     <button className="b" onClick={calculo}>Executar</button>

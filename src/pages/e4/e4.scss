@@ -46,12 +46,12 @@
         .q2 h3{
             font: 700 18px 'Roboto';
             font-weight: bold;
-            transform: translate(0vh, 0.5vh);
+            transform: translate(-2vh, 3vh);
         }
         .texto{
             display: flex;
             gap: 20px;
-            margin-left: 20vh;
+            margin-left: 10vh;
             margin-top: 7vh;
         }
 
@@ -65,11 +65,11 @@
             height: 41px;
             border-radius: 12px;
             border-color: #A5A5A5;
-            transform: translate(0vh, 1.5vh);
+            transform: translate(-2vh, 4vh);
         }
 
         .h1{
-            margin-left: 90vh;
+            margin-left: 113vh;
             margin-top: 2vh;
             font: 700 18px 'Roboto';
         }
@@ -81,7 +81,7 @@
             width: 216px;
             height: 50px;
             font: 700 16px 'Roboto';
-            transform: translate(45vh, 6vh);
+            transform: translate(39vh, 6vh);
             position:absolute;
         }
         .bola1{
