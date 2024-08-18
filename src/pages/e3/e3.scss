@@ -1,52 +1,56 @@
-.e3{
-    body{
-    background-color: #F5F6FA;
+.e3 {
+    body {
+      background-color: #F5F6FA;
     }
-    
-    .texto{
-    display: flex;
-    gap: 20px;
-    margin-left: 7vh;
-    margin-top: 7vh;
+  
+    .texto {
+      display: flex;
+      gap: 20px;
+      margin-left: 7vh;
+      margin-top: 7vh;
+  
+      .seta {
+        width: 40px;
+        height: 40px;
+      }
     }
-
-    .seta{
-    width: 40px;
-    height: 40px;
+  
+    .borda2 {
+      border: 1px solid #37FFF3;
+      width: 1280vh;
+      height: 4px;
+      background-color: #37FFF3;
+      margin-top: 2vh;
     }
-
-    .borda2{
-    border: 1px solid 
-    #37FFF3;
-    width: 1280vh;
-    height: 4px;
-    background-color: 
-    #37FFF3;
-    margin-top: 2vh;
+  
+    .cont {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      .quadrado1 {
+        border: #fff;
+        background-color: #fff;
+        width: 1275px;
+        height: 213px;
+        margin-top: 4vh;
+        border-radius: 12px;
+        box-shadow: 0px 0px 14px 1px rgba(173, 173, 173, 0.25);
+  
+        p {
+          font: 500 16px 'Roboto';
+          text-align: center;
+          padding-top: 98px;
+        }
+      }
     }
-
-    .quadrado1{
-    border: #fff;
-    background-color: #fff;
-    width: 1275px;
-    height: 213px;
-    margin-top: 4vh;
-    border-radius: 12px;
-    box-shadow: 0px 0px 14px 1px rgba(173, 173, 173, 0.25);
-    }
-
-    .quadrado1 p{
-    font: 500 16px 'Roboto';
-    text-align: center;
-    padding-top: 98px;
-    }
-
-    .a{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .q2{
+  
+    .a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      .q2 {
         display: flex;
         align-items: center;
         border: 1px solid #fff;
@@ -57,44 +61,53 @@
         margin-top: 4vh;
         border-radius: 12px;
         box-shadow: 0px 0px 14px 1px rgba(173, 173, 173, 0.25);
-    }
-    .q2 h3{
-        font: 700 18px 'Roboto';
-        font-weight: bold;
-        transform: translate(0vh, 0.5vh);
-    }
+  
+        h3 {
+          font: 700 18px 'Roboto';
+          font-weight: bold;
+          transform: translate(0vh, 0.5vh);
+        }
+  
+        .input1{
 
-    .input1{
+            width: 120px;
+            height: 41px;
+            border-radius: 12px;
+            border-color: #A5A5A5;
+            transform: translate(0vh, 1.5vh);
+        }
+    
+        .input2{
+    
+            width: 120px;
+            height: 41px;
+            border-radius: 12px;
+            border-color: #A5A5A5;
+            transform: translate(0vh, 1.5vh);
+        }
+    
+        .input3{
+            width: 120px;
+            height: 41px;
+            border-radius: 12px;
+            border-color: #A5A5A5;
+            transform: translate(0vh, 1.5vh);
+        }
 
-        width: 120px;
-        height: 41px;
-        border-radius: 12px;
-        border-color: #A5A5A5;
-        transform: translate(0vh, 1.5vh);
-    }
-
-    .input2{
-
-        width: 120px;
-        height: 41px;
-        border-radius: 12px;
-        border-color: #A5A5A5;
-        transform: translate(0vh, 1.5vh);
-    }
-
-    .input3{
-        width: 120px;
-        height: 41px;
-        border-radius: 12px;
-        border-color: #A5A5A5;
-        transform: translate(0vh, 1.5vh);
-    }
-
-    .texto h1{
-        font: 700 26px 'Roboto';
-        margin-top: 0.3vh;
-    }
-    .b{
+        .bola1{
+            transform: translate(4vh, -4vh);
+        }
+    
+        .bola2{
+            transform: translate(9vh, -4vh);
+        }
+    
+        .bola3{
+            transform: translate(12vh, -4vh);
+        }
+      }
+  
+      .b {
         background-color: #6278F7;
         color: #fff;
         border: 0px solid #6278F7;
@@ -103,32 +116,19 @@
         height: 50px;
         font: 700 16px 'Roboto';
         transform: translate(47vh, 6vh);
-        position:absolute;
+        position: absolute;
+      }
     }
-
-    .bola1{
-        transform: translate(4vh, -4vh);
+  
+    .texto h1 {
+      font: 700 26px 'Roboto';
+      margin-top: 0.3vh;
     }
-
-    .bola2{
-        transform: translate(9vh, -4vh);
+  
+    .h1 {
+      margin-left: 98vh;
+      margin-top: 2vh;
+      font: 700 18px 'Roboto';
     }
-
-    .bola3{
-        transform: translate(12vh, -4vh);
-    }
-
-    .h1{
-        margin-left: 98vh;
-        margin-top: 2vh;
-        font: 700 18px 'Roboto';
-    }
-    
-    .cont{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-}
+  }
+  
