@@ -28,23 +28,24 @@ export default function Exercicio7() {
             if (peso > 0 && alturaEmMetros > 0) {
                 let imc = peso / (alturaEmMetros * alturaEmMetros)
 
-                let resultado = {
+                let objeto = {
                     peso: peso,
                     altura: altura,
                     imc: imc.toFixed(2),
                     tipo: situacao(imc)
                     };
 
-                setResultados([...resultados, resultado])
+                setResultados([...resultados, objeto])
                 setAltura(0)
                 setPeso(0)
 
                 if (editando === -1) {
-                setResultados([...resultados, resultado])
-                } else {
+                setResultados([...resultados, objeto])
+                } 
+                else {
 
                 let novosResultados = resultados.slice()
-                novosResultados[editando] = resultado
+                novosResultados[editando] = objeto
                 setResultados(novosResultados)
                 setEditando(-1)
                 }
@@ -108,18 +109,23 @@ export default function Exercicio7() {
                     <button className="b" onClick={calculo}>Executar</button>
                 </div>
 
-                <div className="resultados">
-                        {resultados.map((resultado, index) => (
-                            <div key={index} className="resultado">
+                <div className="maez">
+                        {resultados.map((objeto, index) => (
+                            <div key={index} className="resultados">
                                 <h3>
-                                    Peso: {resultado.peso} kg | Altura: {resultado.altura} cm | IMC: {resultado.imc} | Situação: {resultado.tipo}
-                                    <img id="ola" src="https://images.vexels.com/content/223479/preview/trash-bin-icon-flat-dd5fc7.png" alt=""  onClick={() => remover(index)}/>
-
-                                    <img  id="ola2" src="/assets/images/edit.png" alt="" onClick={() => editar(index)} />
+                                    Peso: {objeto.peso} kg | Altura: {objeto.altura} cm | IMC: {objeto.imc} | Situação: {objeto.tipo}
                                 </h3>
-
                                 
-                            </div>
+                                    <div className="imgs">
+                                         <img id="ola" src="https://images.vexels.com/content/223479/preview/trash-bin-icon-flat-dd5fc7.png" alt=""  onClick={() => remover(index)}/>
+
+                                        <img  id="ola2" src="/assets/images/edit.png" alt="" onClick={() => editar(index)} />
+                                    </div>
+                                   
+                                
+                                    
+                                
+                </div>
                             ))
                         }
                 </div>

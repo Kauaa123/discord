@@ -59,6 +59,26 @@ export default function Frei() {
                     </div>
             
 
+                    <div className="m5">
+                    <div className="b5">
+                        
+                    </div>
+                    <h6 className='b'>Média de alunos</h6>
+
+                        <Link className='a' to='/e5'><p>Exercicio 05</p> </Link> 
+                    
+                    </div>
+
+                    <div className="m6">
+                    <div className="b6">
+                        
+                    </div>
+                    <h6 className='b'>Salário líquido</h6>
+
+                        <Link className='a' to='/e6'><p>Exercicio 06</p> </Link> 
+                    
+                    </div>
+            
 
 
             <div className="m7">
@@ -68,6 +88,46 @@ export default function Frei() {
                     <h6 className='b'>Calculando o IMC</h6>
 
                         <Link className='a' to='/e7'><p>Exercicio 07</p> </Link> 
+                    
+            </div>
+
+            <div className="m8">
+                    <div className="b8">
+                        
+                    </div>
+                    <h6 className='b'>Cores primárias</h6>
+
+                        <Link className='a' to='/e8'><p>Exercicio 08</p> </Link> 
+                    
+            </div>
+
+            <div className="m9">
+                    <div className="b9">
+                        
+                    </div>
+                    <h6 className='b'>Temperatura</h6>
+
+                        <Link className='a' to='/e9'><p>Exercicio 09</p> </Link> 
+                    
+            </div>
+
+            <div className="m10">
+                    <div className="b10">
+                        
+                    </div>
+                    <h6 className='b'>Sorveteria</h6>
+
+                        <Link className='a' to='/e10'><p>Exercicio 10</p> </Link> 
+                    
+            </div>
+
+            <div className="m11">
+                    <div className="b11">
+                        
+                    </div>
+                    <h6 className='b'>Tabuada</h6>
+
+                        <Link className='a' to='/e11'><p>Exercicio 11</p> </Link> 
                     
             </div>
             </div>
