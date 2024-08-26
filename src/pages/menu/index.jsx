@@ -31,25 +31,25 @@ export default function Frei() {
         "subtitulo": 'Exercicio 06',
         "cor": 'b6',
     },{
-        "link": '/e7',
+        "link": '/e8',
         "titulo": 'Cores primárias',
         "subtitulo": 'Exercicio 07',
         "cor": 'b7',
     },{
-        "link": '/e8',
+        "link": '/e9',
         "titulo": 'Temperatura',
         "subtitulo": 'Exercicio 08',
-        "cor": 'b8',
-    },{
-        "link": '/e9',
-        "titulo": 'Sorveteria',
-        "subtitulo": 'Exercicio 09',
         "cor": 'b9',
     },{
         "link": '/e10',
+        "titulo": 'Sorveteria',
+        "subtitulo": 'Exercicio 09',
+        "cor": 'b10',
+    },{
+        "link": '/e7',
         "titulo": 'Calculo de IMC com histórico',
         "subtitulo": 'Exercicio 10',
-        "cor": 'b10',
+        "cor": 'b7',
     },{
         "link": '/e11',
         "titulo": 'Tabuada',
@@ -70,7 +70,8 @@ export default function Frei() {
                   
                 <Card1 titulo='Cupom de desconto'
                 subtitulo='Exercicio 01'
-                cor='b1' />
+                cor='b1' 
+                link='/e1'/>
             
 
                 {
