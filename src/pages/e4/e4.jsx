@@ -2,6 +2,7 @@ import "./e4.scss";
 import {Link} from 'react-router-dom'
 import { useState } from "react"
 import Cabecalho from  "../../components/cabecalho"
+import Quadrado from "../../components/quadrado"
 
 export default function Exercicio4() {
     const[nome,setNome] = useState('')
@@ -23,7 +24,7 @@ export default function Exercicio4() {
         
         <div className="texto">
         <Link to='/'>
-            <img className="seta" src="https://s3-alpha-sig.figma.com/img/9074/e6e6/811ba1958a9b261fff4fb3a8f7c72556?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dPWOIo~KzN0dlQAGJGB0mL5JgUAyUR9D6AActKXJLRcFrJSUnyJZbWHrJdi73v-RA4B1tEk~lpDUvsuz1UV9tXfBfc7O~HQhOFL1jiFCCzPy4tZds5VtS~84SWUZkqI6P5HnxiDeHWfFhnpv-97YHVt2FXI-wdE7-d-JTI8Yp6qkPmUgYze3Cn2Z6UlzIjtEGYxzhDyuufjFvW0CgA3OsTX~soLFJDlTEyPReKF8YV2Qq0xdNSIzBpqwVd2jK-B0G4w7x4IsqrZpdXLAld5JO-MPCxp9mhmm05iBU~XjF4r6eyGrZ8Mh-aEOBUwo8-az5qcMRGsB-~PVUO0XME0UTQ__" alt="" />
+            <img className="seta" src="/assets/images/seta.png" alt="" />
         </Link>
             <h1>Exercício 04 - Leitura de livro</h1>
         </div>
@@ -31,11 +32,9 @@ export default function Exercicio4() {
         <div className="borda">
 
         </div>
-        <div className="cont">
-           <div className="quadrado1">
-                <p>Implementar um programa de JavaScript que calcule o tempo que um livro será lido por uma pessoa a partir do nome do livro, do total de paginas e do tempo me segundos de leitura por pagina.</p>
-            </div> 
-        </div>
+        
+        <Quadrado texto='Implementar um programa em Javascript para calcular o total de uma venda de açaí a partir das quantidades compradas para cada tamanho: pequeno, médio e grande, sabendo que o valor do açaí é R$ 13,50; R$ 15,00 e R$ 17,50 respectivamente'
+        />
         
         <div className="a">
             <div className="q2">

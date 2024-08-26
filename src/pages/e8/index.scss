@@ -1,12 +1,10 @@
-.e8{
+.e9{
     .borda{
         width: 1280vh;
         height: 4px;
-        background-color:  
-        #37FFAB;
+        background-color:#151515;
         margin-top: 2vh;
-        border: 1px solid 
-        #37FFAB;
+        border: 1px solid #151515;
     }
     .cont{
         display: flex;
@@ -40,7 +38,7 @@
             border: 1px solid #fff;
             background-color: #fff;
             width: 687px;
-            height: 290px;
+            height: 200px;
             gap: 30px;
             margin-top: 4vh;
             border-radius: 12px;
@@ -86,7 +84,7 @@
             width: 216px;
             height: 50px;
             font: 700 16px 'Roboto';
-            transform: translate(19vh, 23vh);
+            transform: translate(19vh, 14vh);
             position:absolute;
         }
         .bola1{

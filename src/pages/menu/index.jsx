@@ -31,25 +31,25 @@ export default function Frei() {
         "subtitulo": 'Exercicio 06',
         "cor": 'b6',
     },{
-        "link": '/e8',
+        "link": '/e7',
         "titulo": 'Cores primárias',
         "subtitulo": 'Exercicio 07',
         "cor": 'b7',
     },{
-        "link": '/e9',
+        "link": '/e8',
         "titulo": 'Temperatura',
         "subtitulo": 'Exercicio 08',
+        "cor": 'b8',
+    },{
+        "link": '/e9',
+        "titulo": 'Sorveteria',
+        "subtitulo": 'Exercicio 09',
         "cor": 'b9',
     },{
         "link": '/e10',
-        "titulo": 'Sorveteria',
-        "subtitulo": 'Exercicio 09',
-        "cor": 'b10',
-    },{
-        "link": '/e7',
         "titulo": 'Calculo de IMC com histórico',
         "subtitulo": 'Exercicio 10',
-        "cor": 'b7',
+        "cor": 'b10',
     },{
         "link": '/e11',
         "titulo": 'Tabuada',

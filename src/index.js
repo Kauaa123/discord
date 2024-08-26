@@ -9,7 +9,7 @@ import Exercicio11 from './pages/e11/index.jsx';
 import Exercicio10 from './pages/e10/index.jsx';
 import Exercicio9 from './pages/e9/index.jsx';
 import Exercicio8 from './pages/e8/index.jsx';
-import Exercicio7 from './pages/e7/index.jsx';
+import Exercicio7 from './pages/e7/index.jsx'
 import Exercicio6 from './pages/e6/index.jsx';
 import Exercicio5 from './pages/e5/index.jsx';
 import Exercicio4 from './pages/e4/e4.jsx';

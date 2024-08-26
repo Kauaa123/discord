@@ -2,6 +2,7 @@ import "./index.scss";
 import {Link} from 'react-router-dom'
 import { useState } from "react"
 import Cabecalho from  "../../components/cabecalho"
+import Quadrado from '../../components/quadrado'
 
 export default function Exercicio5() {
     const[nota1,setNota1] = useState(0)
@@ -32,7 +33,7 @@ export default function Exercicio5() {
         
         <div className="texto">
         <Link to='/'>
-            <img className="seta" src="https://s3-alpha-sig.figma.com/img/9074/e6e6/811ba1958a9b261fff4fb3a8f7c72556?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dPWOIo~KzN0dlQAGJGB0mL5JgUAyUR9D6AActKXJLRcFrJSUnyJZbWHrJdi73v-RA4B1tEk~lpDUvsuz1UV9tXfBfc7O~HQhOFL1jiFCCzPy4tZds5VtS~84SWUZkqI6P5HnxiDeHWfFhnpv-97YHVt2FXI-wdE7-d-JTI8Yp6qkPmUgYze3Cn2Z6UlzIjtEGYxzhDyuufjFvW0CgA3OsTX~soLFJDlTEyPReKF8YV2Qq0xdNSIzBpqwVd2jK-B0G4w7x4IsqrZpdXLAld5JO-MPCxp9mhmm05iBU~XjF4r6eyGrZ8Mh-aEOBUwo8-az5qcMRGsB-~PVUO0XME0UTQ__" alt="" />
+            <img className="seta" src="/assets/images/seta.png" alt="" />
         </Link>
             <h1>Exercício 05 - Média de notas</h1>
         </div>
@@ -40,11 +41,10 @@ export default function Exercicio5() {
         <div className="borda">
 
         </div>
-        <div className="cont">
-           <div className="quadrado1">
-                <p>Implemente um programa em Javascript para verificar se um aluno passou ou não, baseado em 3 notas, considerando que a média mínima para passar é 6.</p>
-            </div> 
-        </div>
+        
+        <Quadrado 
+        texto='Implemente um programa em Javascript para verificar se um aluno passou ou não, baseado em 3 notas, considerando que a média mínima para passar é 6.'
+        />
         
         <div className="a">
             <div className="q2">
