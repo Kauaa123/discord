@@ -37,8 +37,8 @@
       .quadrado {
         border: #fff;
         background-color: #fff;
-        width: 100%; /* Ajusta para uma largura relativa ao contêiner pai */
-        max-width: 1275px; /* Define uma largura máxima */
+        width: 100%; 
+        max-width: 1275px; 
         height: 213px;
         margin-top: 4vh;
         border-radius: 12px;
@@ -152,7 +152,8 @@
       width: 216px;
       height: 50px;
       font: 700 16px 'Roboto';
-      transform: translate(11vh, 24vh);
+      margin-top: 28vh;
+      margin-left: 25vh;
     }
   
     .ar {
