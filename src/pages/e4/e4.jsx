@@ -11,8 +11,11 @@ export default function Exercicio4() {
     const[resultado, setresultado] = useState(0)
 
     function calculo() {
-        let novo = (totalPaginas * tempoSegundos) / 3600
-        setresultado(novo)
+        if (nome != '' && totalPaginas > 0 && tempoSegundos > 0) {
+            let novo = (totalPaginas * tempoSegundos) / 3600
+            setresultado(novo)
+        }
+        
     }
 
     
@@ -47,13 +50,13 @@ export default function Exercicio4() {
             <div className="segundo">
                 <h3>Total de páginas</h3>
 
-                <input type="Number" value={totalPaginas} onChange={e => setTotalPaginas(e.target.value)}/>
+                <input type="Number" value={totalPaginas} onChange={e => setTotalPaginas(Number(e.target.value))}/>
             </div>
 
             <div className="terceiro">
                 <h3>Tempo em segundos</h3>
 
-                <input type="Number" value={tempoSegundos} onChange={e => setTempoSegundos(e.target.value)} />
+                <input type="Number" value={tempoSegundos} onChange={e => setTempoSegundos(Number(e.target.value))} />
 
                 
             </div>

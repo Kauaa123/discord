@@ -11,8 +11,11 @@ export default function Exercicio3() {
     const [resultado,setResultado] = useState(0)
 
     function calculo() {
-        let novo = (valorS1 * 13.5) + (valorS2 * 15.0) + (valorS3 * 17.5)
-        setResultado(novo)
+        if (valorS1 > 0 || valorS2 > 0 || valorS3 > 0) {
+           let novo = (valorS1 * 13.5) + (valorS2 * 15.0) + (valorS3 * 17.5)
+            setResultado(novo) 
+        }
+        
     }
 
     return (
@@ -40,19 +43,19 @@ export default function Exercicio3() {
             <div className="primeiro">
                 <h3>Quantidade pequeno</h3>
 
-                <input type="Number" value={valorS1} onChange={e => setValorS1(e.target.value)} />
+                <input type="Number" value={valorS1} onChange={e => setValorS1(Number(e.target.value))} />
             </div>
 
             <div className="segundo">
                 <h3>Quantidade medio</h3>
 
-                <input type="Number" value={valorS2} onChange={e => setValorS2(e.target.value)}/>
+                <input type="Number" value={valorS2} onChange={e => setValorS2(Number(e.target.value))}/>
             </div>
 
             <div className="terceiro">
                 <h3>Quantidade grande</h3>
 
-                <input type="Number" value={valorS3} onChange={e => setValorS3(e.target.value)}/>
+                <input type="Number" value={valorS3} onChange={e => setValorS3(Number(e.target.value))}/>
 
                 
             </div>

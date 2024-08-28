@@ -11,8 +11,11 @@ export default function Exercicio1() {
     const [resultado, setResultado] = useState(0);
 
     function calculo() {
-        let novo = Number(valorS1) - Number(valorS2);
-        setResultado(novo);
+        if (valorS1 > 0) {
+           let novo = Number(valorS1) - Number(valorS2)
+            setResultado(novo) 
+        } else{
+        }
     }
 
     return (
@@ -36,10 +39,10 @@ export default function Exercicio1() {
             <div className="mae">
                 <div className="sub">
                     <h4>Informe o valor do pedido</h4>
-                    <input id="botaoPedido" type="number" value={valorS1} onChange={e => setValorS1(e.target.value)} />
+                    <input id="botaoPedido" type="Number" value={valorS1} onChange={e => setValorS1(Number(e.target.value))} />
 
                     <h4>Informe o valor do cupom</h4>
-                    <input id="botaoCupom" type="number" value={valorS2} onChange={e => setValorS2(e.target.value)} />
+                    <input id="botaoCupom" type="Number" value={valorS2} onChange={e => setValorS2(Number(e.target.value))} />
 
                     <button id="botaoAzul" onClick={calculo}> Executar</button>
                 </div>

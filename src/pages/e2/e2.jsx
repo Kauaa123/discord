@@ -9,8 +9,11 @@ export default function Exercicio2() {
     const [resultado,setResultado] = useState(0)
 
     function calculo() {
-        let novo = Number(valorS1) * 1000
-        setResultado(novo)
+        if (valorS1 > 0) {
+            let novo = Number(valorS1) * 1000
+            setResultado(novo)
+        }
+        
     }
     return (
 
@@ -33,7 +36,7 @@ export default function Exercicio2() {
             texto='Implementar um programa em Javascript para converter kilos em gramas' 
         />
         
-        <div className="mae2">
+        <div className="mae">
             <div className="informacoes">
             <h6>Valor em gramas</h6>
             

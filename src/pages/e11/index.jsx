@@ -9,11 +9,14 @@ export default function Exercicio11() {
     const [resultado, setResultado] = useState([])
 
     function calculo() {
-        let calc = []
-        for(let i = 0; i <= 10; i++){
-            calc.push(`${num} x ${i} = ${num * i}`)
+        if (num > 0) {
+            let calc = []
+            for(let i = 0; i <= 10; i++){
+                calc.push(`${num} x ${i} = ${num * i}`)
+            }
+            setResultado(calc)
         }
-        setResultado(calc)
+        
     }
     
 

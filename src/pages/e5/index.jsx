@@ -12,9 +12,12 @@ export default function Exercicio5() {
     const[passou, setPassou] = useState('')
 
     function calculo() {
-        let novo = Number((nota1 + nota2 + nota3) / 3)
-        setResultado(novo.toFixed(2))
-        situacao(novo)
+        if (nota1 >= 0 || nota2 >= 0 || nota3 >= 0) {
+            let novo = Number((nota1 + nota2 + nota3) / 3)
+            setResultado(novo.toFixed(2))
+            situacao(novo)
+        }
+        
     }
 
     function situacao(novo) {

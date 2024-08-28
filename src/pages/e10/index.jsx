@@ -34,7 +34,7 @@ export default function Exercicio10() {
                     altura: altura,
                     imc: imc.toFixed(2),
                     tipo: situacao(imc)
-                    };
+                    }
 
                 setResultados([...resultados, objeto])
                 setAltura(0)

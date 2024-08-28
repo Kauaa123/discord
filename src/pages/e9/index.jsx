@@ -9,9 +9,12 @@ export default function Exercicio9() {
     const [resultado, setResultado] = useState(0)
 
     function calculo() {
-        let preco = gramas >= 1000 ? 3.0 : 3.5
-        let novo = (gramas * preco) / 100
-        setResultado(novo.toFixed(2))
+        if (gramas > 0) {
+            let preco = gramas >= 1000 ? 3.0 : 3.5
+            let novo = (gramas * preco) / 100
+            setResultado(novo.toFixed(2))
+        }
+        
     }
     return (
 

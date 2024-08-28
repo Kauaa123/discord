@@ -11,9 +11,12 @@ export default function Exercicio6() {
     const[resultado, setResultado] = useState(0)
 
     function calculo() {
-        let novo = Number((salario * bonus) / 100) + salario
-        let calc = novo - descontos
-        setResultado(calc.toFixed(2))
+        if (salario > 0) {
+            let novo = Number((salario * bonus) / 100) + salario
+            let calc = novo - descontos
+            setResultado(calc.toFixed(2))
+        }
+        
 
     }
 
