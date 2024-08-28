@@ -6,47 +6,43 @@
     color: #fff;
     gap: 25px;
     height: 90px;
+
+        p{
+            font: 500 20px 'Roboto';
+            margin-top: 34px; 
+        }
+
+    #logoFrei{
+        width: 51.52px;
+        margin-left: 50px;
+        height: 60px;
+        margin-top: 15px;
     }
 
-    .infos p{
-        font: 500 20px 'Roboto';
-        margin-top: 34px;
-    }
-
-    .inicio{
-    margin-top: 34px;
-    font: 500 20px 'Roboto';
-    color: #fff;
-    text-decoration: none;
-    }
-
-    .sobre{
-    margin-top: 34px;
-    font: 500 20px 'Roboto';
-    color: #fff;
-    text-decoration: none;
-    }
-
-
-    .s{
+.text{
     display: flex;
     margin-left: 105vh;
     gap: 30px;
     color: #fff;
+    .inicio{
+        margin-top: 34px;
+        font: 500 20px 'Roboto';
+        color: #fff;
+        text-decoration: none;
     }
 
-    .frei{
-    width: 51.52px;
-    margin-left: 50px;
-    height: 60px;
-    margin-top: 15px;
-
-    .texto{
-        display: flex;
-        gap: 20px;
-        margin-left: 7vh;
-        margin-top: 7vh;
+    .sobre{
+        margin-top: 34px;
+        font: 500 20px 'Roboto';
+        color: #fff;
+        text-decoration: none;
     }
+
+
+}
+
+    
+
 
     
         
