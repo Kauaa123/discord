@@ -15,17 +15,17 @@ export default function Exercicio2() {
     return (
 
         
-    <div className="principal1">
+    <div className="e2">
         <Cabecalho titulo='Exercício 02 - Converter Kg/gramas' />
 
-        <div className="texto1">
+        <div className="texto">
         <Link to='/'>
-             <img className="seta1" src="/assets/images/seta.png" alt="" />
+             <img className="seta" src="/assets/images/seta.png" alt="" />
              </Link>
-            <h1 className="hz">Exercício 02 - Converter Kg/gramas</h1>
+            <h1>Exercício 02 - Converter Kg/gramas</h1>
         </div>
 
-        <div className="borda1">
+        <div className="borda">
 
         </div>
 
@@ -34,15 +34,15 @@ export default function Exercicio2() {
         />
         
         <div className="mae2">
-            <div className="botao11">
+            <div className="informacoes">
             <h6>Valor em gramas</h6>
             
-            <input className="botao1" type="Number" value={valorS1} onChange={e => setValorS1(e.target.value)} />
+            <input id="botao1" type="Number" value={valorS1} onChange={e => setValorS1(e.target.value)} />
             
-            <button className="botao2" onClick={calculo}>Executar</button>
+            <button id="botaoAzul" onClick={calculo}>Executar</button>
             
         </div>
-        <h3 className="h1">Resultado: O total é R${resultado.toFixed(2)}</h3>
+        <h3 id="textoResposta">Resultado: O total é R${resultado.toFixed(2)}</h3>
         </div>
         
     </div>

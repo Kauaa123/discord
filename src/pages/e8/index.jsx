@@ -25,7 +25,7 @@ export default function Exercicio8() {
     return (
 
     
-    <div className="e9">
+    <div className="e8">
         <Cabecalho></Cabecalho>
         
         <div className="texto">
@@ -44,21 +44,22 @@ export default function Exercicio8() {
         texto='Implementar um programa em javascript que a partir da temperatura, avalie a situação da pessoa conforme a tabela. Ao final, apresente a classificação.'
         />
         
-        <div className="a">
-            <div className="q2">
-            <div className="bola1">
+        <div className="mae">
+            <div className="quadrado2">
+
+            <div className="informacoes">
                 <h3>Temperatura</h3>
 
-                <input className="input1" type="text" value={temperatura} onChange={e => setTemperatura(e.target.value)} />
+                <input className="input1" type="Number" value={temperatura} onChange={e => setTemperatura(Number(e.target.value))} />
             </div>
         
-                <button className="b" onClick={classificacao}>Executar</button>
+                <button id="botaoAzul" onClick={classificacao}>Executar</button>
                 
             
         </div>
         </div>
         
-            <p className="h1">A situação para sua temperatura é {situacao}</p>
+            <p id="textoResposta">A situação para sua temperatura é {situacao}</p>
             
     </div>
        

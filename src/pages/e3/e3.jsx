@@ -28,42 +28,42 @@ export default function Exercicio3() {
             <h1>Exercício 03 - Valor total por quantidade</h1>
         </div>
 
-        <div className="borda2">
+        <div className="borda">
 
         </div>
         
         <Quadrado 
         texto='Implementar um programa em Javascript que calcule o tempo que um livro será lido por uma pessoa a partir do nome do livro, do total de páginas e do tempo em segundos de leitura por página'/>
         
-        <div className="a">
-            <div className="q2">
-            <div className="bola1">
+        <div className="mae">
+            <div className="quadrado2">
+            <div className="primeiro">
                 <h3>Quantidade pequeno</h3>
 
-                <input className="input1" type="Number" value={valorS1} onChange={e => setValorS1(e.target.value)} />
+                <input type="Number" value={valorS1} onChange={e => setValorS1(e.target.value)} />
             </div>
 
-            <div className="bola2">
+            <div className="segundo">
                 <h3>Quantidade medio</h3>
 
-                <input className="input2" type="Number" value={valorS2} onChange={e => setValorS2(e.target.value)}/>
+                <input type="Number" value={valorS2} onChange={e => setValorS2(e.target.value)}/>
             </div>
 
-            <div className="bola3">
+            <div className="terceiro">
                 <h3>Quantidade grande</h3>
 
-                <input className="input3" type="Number" value={valorS3} onChange={e => setValorS3(e.target.value)}/>
+                <input type="Number" value={valorS3} onChange={e => setValorS3(e.target.value)}/>
 
                 
             </div>
             
-                <button className="b" onClick={calculo}>Executar</button>
+                <button id="botaoAzul" onClick={calculo}>Executar</button>
                 
             
         </div>
         </div>
         
-            <p className="h1">Resultado: O total é R${resultado.toFixed(2)}</p>
+            <p id="textoResposta">Resultado: O total é R${resultado.toFixed(2)}</p>
     </div>
        
         

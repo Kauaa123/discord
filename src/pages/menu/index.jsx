@@ -55,6 +55,11 @@ export default function Frei() {
         "titulo": 'Tabuada',
         "subtitulo": 'Exercicio 11',
         "cor": 'b11',
+    },{
+        "link": '/e12',
+        "titulo": 'Comparador de pessoas',
+        "subtitulo": 'Exercicio 12',
+        "cor": 'b12',
     }]
     return (
     <div className="pcp">

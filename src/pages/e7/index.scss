@@ -8,32 +8,27 @@
         border: 1px solid 
         #37FFAB;
     }
-    .cont{
+    .texto{
         display: flex;
-        justify-content: center;
-        align-items: center;
+        gap: 20px;
+        margin-left: 10vh;
+        margin-top: 7vh;
+
+        h1{
+            font: 700 26px 'Roboto';
+            margin-top: 0.3vh;
+        }
+        .seta{
+            width: 40px;
+            height: 40px;
+        }
     }
-    .quadrado1{
-        border: #fff;
-        background-color: #fff;
-        width: 1275px;
-        height: 213px;
-        margin-top: 4vh;
-        border-radius: 12px;
-        box-shadow: 0px 0px 14px 1px rgba(173, 173, 173, 0.25);
-        }
     
-        .quadrado1 p{
-        font: 500 16px 'Roboto';
-        text-align: center;
-        padding-top: 98px;
-        }
-    
-     .a{
+     .mae{
         display: flex;
         justify-content: center;
-     }   
-        .q2{
+
+        .quadrado2{
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -49,20 +44,8 @@
             h3{
             font: 700 18px 'Roboto';
             font-weight: bold;
-            transform: translate(-2vh, 3vh);
+            margin: 10px -5px;
             }
-        }
-        
-        .texto{
-            display: flex;
-            gap: 20px;
-            margin-left: 10vh;
-            margin-top: 7vh;
-        }
-
-        .seta{
-            width: 40px;
-            height: 40px;
         }
         input{
 
@@ -70,15 +53,11 @@
             height: 41px;
             border-radius: 12px;
             border-color: #A5A5A5;
-            transform: translate(-2vh, 4vh);
+            margin: -5px;
         }
 
-        .h1{
-            margin-left: 113vh;
-            margin-top: 2vh;
-            font: 700 18px 'Roboto';
-        }
-        .b{
+        
+        #botaoAzul{
             background-color: #6278F7;
             color: #fff;
             border: 0px solid #6278F7;
@@ -86,25 +65,14 @@
             width: 216px;
             height: 50px;
             font: 700 16px 'Roboto';
-            transform: translate(19vh, 23vh);
-            position:absolute;
+            margin-left: 185px;
         }
-        .bola1{
-            position: relative;
-            top: 0px;
+
+     }   
+     #textoResposta{
+            margin-left: 113vh;
+            margin-top: 2vh;
+            font: 700 18px 'Roboto';
         }
-        .bola2{
-            position: relative;
-            top: 0px;
-            left: 3px;
-        }
-        .bola3{
-            position: relative;
-            top: 0px;
-            left: 3px;
-        }
-        .texto h1{
-            font: 700 26px 'Roboto';
-            margin-top: 0.3vh;
-        }
+        
 }

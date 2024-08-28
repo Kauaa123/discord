@@ -39,15 +39,15 @@ export default function Exercicio11() {
         texto='Implemente um programa em Javascript que escreva a tabuada de um número informado pelo usuário. A mensagem deve estar no formato ”A x B = X”.'
         />
         
-        <div className="a">
-            <div className="q2">
+        <div className="mae">
+            <div className="quadrado2">
             <div className="bola1">
                 <h3>Tabuada do:</h3>
 
                 <input className="input1" type="Number" value={num} onChange={e => setNum( Number(e.target.value))} />
             </div>
         
-                <button className="b" onClick={calculo}>Executar</button>
+                <button id="botaoAzul" onClick={calculo}>Executar</button>
                 
             
         </div>
@@ -55,7 +55,7 @@ export default function Exercicio11() {
         
             <div>
                 {resultado.map((item, index) => 
-                    <p key={index} className="h1"> {item} </p>
+                    <p key={index} id="textoResposta"> {item} </p>
                 )}
             </div>
             

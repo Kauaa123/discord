@@ -78,37 +78,35 @@ export default function Exercicio10() {
         <div className="e10">
             <Cabecalho />
 
-            <div className="texto1">
+            <div className="texto">
                 <Link to='/'>
-                    <img className="seta1" src="/assets/images/seta.png" alt="" />
+                    <img className="seta" src="/assets/images/seta.png" alt="" />
                 </Link>
                 <h1>Exercício 10 - Calculo de IMC com histórico</h1>
             </div>
 
-            <div className="borda1"></div>
+            <div className="borda"></div>
 
             <Quadrado 
             texto='Implementar um programa em javascript que a partir da altura e do peso de uma pessoa, calcule o imc e avalie a faixa correspondente a tabela ao lado. Ao final, apresente o IMC e a situação.'
             />
             
-            <div className="marz">
-                <div className="q2">
-                    <h3>Peso</h3>
-                    <div className="bola1">
-                        <input 
-                            className="botao1" type="number" value={peso} onChange={e => setPeso(Number(e.target.value))} 
-                        />
+            <div className="container">
+                <div className="sub">
+                    
+                    <div className="esquerda">
+                        <h3>Peso</h3>
+                        <input className="botao1" type="Number" value={peso} onChange={e => setPeso(Number(e.target.value))}/>
                     </div>
-                    <h4>Altura</h4>
-                    <div className="bola2">
-                        <input 
-                            className="botao2" type="number" value={altura} onChange={e => setAltura(Number(e.target.value))} 
-                        />
+
+                    <div className="direita">
+                        <h4>Altura</h4>
+                        <input className="botao2" type="Number" value={altura} onChange={e => setAltura(Number(e.target.value))}/>
                     </div>
-                    <button className="b" onClick={calculo}>Executar</button>
+                    <button id="botaoAzul" onClick={calculo}>Executar</button>
                 </div>
 
-                <div className="maez">
+                <div className="principal">
                         {resultados.map((objeto, index) => (
                             <div key={index} className="resultados">
                                 <h3>
@@ -119,11 +117,7 @@ export default function Exercicio10() {
                                          <img id="ola" src="https://images.vexels.com/content/223479/preview/trash-bin-icon-flat-dd5fc7.png" alt=""  onClick={() => remover(index)}/>
 
                                         <img  id="ola2" src="/assets/images/edit.png" alt="" onClick={() => editar(index)} />
-                                    </div>
-                                   
-                                
-                                    
-                                
+                                    </div>    
                 </div>
                             ))
                         }

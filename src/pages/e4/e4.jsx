@@ -36,35 +36,36 @@ export default function Exercicio4() {
         <Quadrado texto='Implementar um programa em Javascript para calcular o total de uma venda de açaí a partir das quantidades compradas para cada tamanho: pequeno, médio e grande, sabendo que o valor do açaí é R$ 13,50; R$ 15,00 e R$ 17,50 respectivamente'
         />
         
-        <div className="a">
-            <div className="q2">
-            <div className="bola1">
+        <div className="mae">
+            <div className="quadrado2">
+            <div className="primeiro">
                 <h3>Nome do livro</h3>
 
-                <input className="input1" type="text" value={nome} onChange={e => setNome(e.target.value)} />
+                <input type="text" value={nome} onChange={e => setNome(e.target.value)} />
             </div>
 
-            <div className="bola2">
+            <div className="segundo">
                 <h3>Total de páginas</h3>
 
-                <input className="input2" type="Number" value={totalPaginas} onChange={e => setTotalPaginas(e.target.value)}/>
+                <input type="Number" value={totalPaginas} onChange={e => setTotalPaginas(e.target.value)}/>
             </div>
 
-            <div className="bola3">
+            <div className="terceiro">
                 <h3>Tempo em segundos</h3>
 
-                <input className="input3" type="Number" value={tempoSegundos} onChange={e => setTempoSegundos(e.target.value)} />
+                <input type="Number" value={tempoSegundos} onChange={e => setTempoSegundos(e.target.value)} />
 
                 
             </div>
             
-                <button className="b" onClick={calculo}>Executar</button>
+                <button id="botaoAzul" onClick={calculo}>Executar</button>
                 
             
         </div>
+        
         </div>
         
-            <p className="h1">Você lerá {nome} em {resultado.toFixed(2)} horas</p>
+            <p id="textoResposta">Você lerá {nome} em {resultado.toFixed(2)} horas</p>
     </div>
        
        

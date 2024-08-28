@@ -5,6 +5,7 @@ import {BrowserRouter, Routes, Route, } from 'react-router-dom'
 
 import App from './pages/Sobre'
 import Frei from './pages/menu/index.jsx'
+import Exercicio12 from './pages/e12/index.jsx';
 import Exercicio11 from './pages/e11/index.jsx';
 import Exercicio10 from './pages/e10/index.jsx';
 import Exercicio9 from './pages/e9/index.jsx';
@@ -23,6 +24,7 @@ root.render(
   <React.StrictMode>
   <BrowserRouter>
             <Routes>
+                <Route path='/e12' element={<Exercicio12 />} />
                 <Route path='/e11' element={<Exercicio11 />} />
                 <Route path='/e10' element={<Exercicio10 />} />
                 <Route path='/e9' element={<Exercicio9 />} />

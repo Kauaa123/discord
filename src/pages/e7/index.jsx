@@ -44,28 +44,28 @@ export default function Exercicio7() {
         texto='Implementar um programa em javascript para verificar se duas cores são primárias'
         />
         
-        <div className="a">
-            <div className="q2">
-            <div className="bola1">
+        <div className="mae">
+            <div className="quadrado2">
+            <div className="primeiro">
                 <h3>Cor 01</h3>
 
                 <input className="input1" type="text" value={cor1} onChange={e => setCor1(e.target.value)} />
             </div>
 
-            <div className="bola2">
+            <div className="segundo">
                 <h3>Cor 02</h3>
 
                 <input className="input2" type="text" value={cor2} onChange={e => setCor2(e.target.value)}/>
             </div>
 
         
-                <button className="b" onClick={cores}>Executar</button>
+                <button id="botaoAzul" onClick={cores}>Executar</button>
                 
             
         </div>
         </div>
         
-            <p className="h1">As cores são primárias? {verificar}</p>
+            <p id="textoResposta">As cores são primárias? {verificar}</p>
             
     </div>
        

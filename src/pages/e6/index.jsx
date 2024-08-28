@@ -40,35 +40,34 @@ export default function Exercicio6() {
         texto='Implemente um programa em javascript para calcular o salário líquido de um funcionário, a partir de seu salário base, do bônus mensal em porcentagem e do total de descontos em reais'
         />
         
-        <div className="a">
-            <div className="q2">
-            <div className="bola1">
+        <div className="mae">
+            <div className="quadrado2">
+            <div className="primeiro">
                 <h3>Salário base</h3>
 
-                <input className="input1" type="Number" value={salario} onChange={e => setSalario(Number(e.target.value))} />
+                <input type="Number" value={salario} onChange={e => setSalario(Number(e.target.value))} />
             </div>
 
-            <div className="bola2">
+            <div className="segundo">
                 <h3>Bônus mensal em porcentagem</h3>
 
-                <input className="input2" type="Number" value={bonus} onChange={e => setBonus(Number(e.target.value))}/>
+                <input type="Number" value={bonus} onChange={e => setBonus(Number(e.target.value))}/>
             </div>
 
-            <div className="bola3">
+            <div className="terceiro">
                 <h3>Total de descontos</h3>
 
-                <input className="input3" type="Number" value={descontos} onChange={e => setDescontos(Number(e.target.value))} />
+                <input type="Number" value={descontos} onChange={e => setDescontos(Number(e.target.value))} />
 
-                
             </div>
             
-                <button className="b" onClick={calculo}>Executar</button>
+                <button id="botaoAzul" onClick={calculo}>Executar</button>
                 
             
         </div>
         </div>
         
-            <p className="h1">Seu sálario líquido é de {resultado}</p>
+            <p id="textoResposta">Seu sálario líquido é de {resultado}</p>
             
     </div>
        

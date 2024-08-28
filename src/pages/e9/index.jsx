@@ -35,21 +35,17 @@ export default function Exercicio9() {
         texto='Implementar um programa em javascript que calcule o total a se pagar em uma compra na sorveteria, a partir do total de gramas comprado. O preço de 100g é R$ 3,50 mas se o total de gramas for a partir de 1kg, o preço das 100g diminui 50 centavos.'
         />
         
-        <div className="a">
-            <div className="q2">
-            <div className="bola1">
+        <div className="mae">
+            <div className="quadrado2">
                 <h3>Total de gramas</h3>
 
                 <input className="input1" type="Number" value={gramas} onChange={e => setGramas( Number(e.target.value))} />
             </div>
         
-                <button className="b" onClick={calculo}>Executar</button>
-                
-            
-        </div>
+                <button id="botaoAzul" onClick={calculo}>Executar</button>
         </div>
         
-            <p className="h1">O total a pagar é R$ {resultado}</p>
+            <p id="textoResultado">O total a pagar é R$ {resultado}</p>
             
     </div>
        

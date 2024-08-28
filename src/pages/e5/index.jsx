@@ -46,35 +46,35 @@ export default function Exercicio5() {
         texto='Implemente um programa em Javascript para verificar se um aluno passou ou não, baseado em 3 notas, considerando que a média mínima para passar é 6.'
         />
         
-        <div className="a">
-            <div className="q2">
+        <div className="mae">
+            <div className="quadrado2">
             <div className="bola1">
                 <h3>Nota 01</h3>
 
-                <input className="input1" type="Number" value={nota1} onChange={e => setNota1(Number(e.target.value))} />
+                <input type="Number" value={nota1} onChange={e => setNota1(Number(e.target.value))} />
             </div>
 
             <div className="bola2">
                 <h3>Nota 02</h3>
 
-                <input className="input2" type="Number" value={nota2} onChange={e => setNota2(Number(e.target.value))}/>
+                <input type="Number" value={nota2} onChange={e => setNota2(Number(e.target.value))}/>
             </div>
 
             <div className="bola3">
                 <h3>Nota 03</h3>
 
-                <input className="input3" type="Number" value={nota3} onChange={e => setNota3(Number(e.target.value))} />
+                <input type="Number" value={nota3} onChange={e => setNota3(Number(e.target.value))} />
 
                 
             </div>
             
-                <button className="b" onClick={calculo}>Executar</button>
+                <button id="botaoAzul" onClick={calculo}>Executar</button>
                 
             
         </div>
         </div>
         
-            <p className="h1">A média é {resultado}. O aluno passou? {passou}</p>
+            <p id="textoResposta">A média é {resultado}. O aluno passou? {passou}</p>
             
     </div>
        
