@@ -1,17 +1,15 @@
+.Sobre{
 body{
     background-color: #F5F6FA;
 }
 
-.frei2{
-    width: 120px;
-    margin-top: 7vh;
-}
-
-.texto h6{
-    font: 100 23px 'Roboto';
-    font-weight: bold;
-    margin-left: 7vh;
-    margin-top: 5vh;
+.texto{
+   h6{
+        font: 100 23px 'Roboto';
+        font-weight: bold;
+        margin-left: 7vh;
+        margin-top: 5vh;
+    } 
 }
 
 .frase{
@@ -21,8 +19,15 @@ body{
     align-items: center;
     text-align: center;
     margin-top: 7vh;
+
+    #logoFrei{
+        width: 120px;
+        margin-top: 7vh;
+    }
+    p{
+        font: 400 29px 'Roboto';
+    }
 }
 
-.frase p{
-    font: 400 29px 'Roboto';
+
 }
