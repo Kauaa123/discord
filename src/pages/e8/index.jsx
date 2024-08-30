@@ -47,19 +47,20 @@ export default function Exercicio8() {
         <div className="mae">
             <div className="quadrado2">
 
-            <div className="informacoes">
-                <h3>Temperatura</h3>
+                <div className="informacoes">
+                    <h3>Temperatura</h3>
 
-                <input className="input1" type="Number" value={temperatura} onChange={e => setTemperatura(Number(e.target.value))} />
-            </div>
+                    <input className="input1" type="Number" value={temperatura} onChange={e => setTemperatura(Number(e.target.value))} />
+                </div>
         
                 <button id="botaoAzul" onClick={classificacao}>Executar</button>
                 
             
-        </div>
+            </div>
+            <p id="textoResposta">A situação para sua temperatura é {situacao}</p>
         </div>
         
-            <p id="textoResposta">A situação para sua temperatura é {situacao}</p>
+            
             
     </div>
        

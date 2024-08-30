@@ -29,7 +29,8 @@
 .mae{
     display: flex;
     justify-content: center;
-
+    align-items: center;
+    flex-direction: column;
     .quadrado2{
         display: flex;
         flex-direction: column;
@@ -68,13 +69,12 @@
         max-width: 216px;
         height: 50px;
         font: 700 16px 'Roboto';
-        margin: 160px;
-        margin-left: -270px;
+        margin-top: -70px;
+        margin-left: 190px;
     }
 }   
 #textoResultado{
         font: 700 18px 'Roboto';
-        margin-left: 109vh;
-        margin-top: -115px;
+        margin-top: 4vh;
     }
 }

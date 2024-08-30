@@ -64,9 +64,10 @@ export default function Exercicio3() {
                 
             
         </div>
+            <p id="textoResposta">Resultado: O total é R${resultado.toFixed(2)}</p>
         </div>
         
-            <p id="textoResposta">Resultado: O total é R${resultado.toFixed(2)}</p>
+            
     </div>
        
         
