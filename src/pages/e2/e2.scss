@@ -56,7 +56,7 @@
         h6 {
           font: 700 18px 'Roboto';
           margin-top: 10px;
-          margin-left: -275px;
+          margin-left: -295px;
         }
   
         #botao1 {
@@ -66,6 +66,7 @@
           border: 1px solid #A5A5A5;
           margin: 15px;
         }
+        
       
         #botaoAzul {
           background-color: #6278F7;
@@ -83,5 +84,12 @@
   
       }
     }
+    .resultado-container {
+          display: flex;
+          justify-content:end;
+          width: 24%;
+          margin-top: 0rem;
+  
+      } 
   }
   

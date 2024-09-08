@@ -40,6 +40,9 @@
             justify-content: center;
             position: relative;
 
+            h3{
+                font: 700 17px 'Roboto';
+            }
             .resultados {
                 display: flex;
                 flex-direction: row;
@@ -132,8 +135,6 @@
             font-weight: bold;
         }
     }
-
-
 
 
 

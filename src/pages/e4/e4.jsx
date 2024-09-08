@@ -65,7 +65,10 @@ export default function Exercicio4() {
                 
             
         </div>
+        <div className="resultado-container">
             <p id="textoResposta">Você lerá {nome} em {resultado.toFixed(2)} horas</p>
+        </div>
+            
         </div>
         
             

@@ -68,7 +68,10 @@ export default function Exercicio6() {
                 
             
         </div>
+        <div className="resultado-container">
             <p id="textoResposta">Seu sálario líquido é de {resultado}</p>
+        </div>
+            
         </div>
         
             

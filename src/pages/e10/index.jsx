@@ -111,7 +111,7 @@ export default function Exercicio10() {
                 <div className="principal">
                         {resultados.map((objeto, index) => (
                             <div key={index} className="resultados">
-                                <h3>
+                                <h3 className="resultado-container">
                                     Peso: {objeto.peso} kg | Altura: {objeto.altura} cm | IMC: {objeto.imc} | Situação: {objeto.tipo}
                                 </h3>
                                 

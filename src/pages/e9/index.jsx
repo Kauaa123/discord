@@ -41,13 +41,14 @@ export default function Exercicio9() {
         <div className="mae">
             <div className="quadrado2">
                 <h3>Total de gramas</h3>
-
-                <input className="input1" type="Number" value={gramas} onChange={e => setGramas( Number(e.target.value))} />
+                <input className="input1" type="Number" value={gramas} onChange={e => setGramas(Number(e.target.value))} />
             </div>
-        
                 <button id="botaoAzul" onClick={calculo}>Executar</button>
+            <div className="resultado-container">
                 <p id="textoResultado">O total a pagar é R$ {resultado}</p>
+            </div>
         </div>
+
         
             
             
