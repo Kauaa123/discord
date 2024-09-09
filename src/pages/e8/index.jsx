@@ -57,7 +57,10 @@ export default function Exercicio8() {
                 
             
             </div>
-            <p id="textoResposta">A situação para sua temperatura é {situacao}</p>
+            <div className="resultado-container">
+                <p id="textoResposta">A situação para sua temperatura é {situacao}</p>
+            </div>
+            
         </div>
         
             

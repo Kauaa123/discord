@@ -46,7 +46,10 @@ export default function Exercicio1() {
 
                     <button id="botaoAzul" onClick={calculo}> Executar</button>
                 </div>
-                <h3 id="textoResposta">Resultado: O total é R${resultado.toFixed(2)}</h3>
+                <div className="resultado-container">
+                    <h3 id="textoResposta">Resultado: O total é R${resultado.toFixed(2)}</h3>
+                </div>
+                
             </div>
         </div>
             
