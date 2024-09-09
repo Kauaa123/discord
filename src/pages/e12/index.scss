@@ -109,6 +109,7 @@
                 width: 216px;
                 height: 50px;
                 font: 700 16px 'Roboto';
+                cursor: pointer;
             }
         }
     }
@@ -125,6 +126,68 @@
         hr{
             width: 700px;
             border: 1px solid #6533B7;
+        }
+    }
+
+    .cardPessoas{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 50px 0px;
+        width: 306px;
+        height: 199.11px;
+        background-color: #fff;
+        border-radius: 12px;
+        .infoPessoas{
+            
+            h1{
+                font: 700 18px 'Roboto';
+                text-align: center;
+            }
+            h2{
+                font: 700 16px 'Roboto';
+                padding-top: 20px;
+            }
+        }
+        .opcoes{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            border-radius: 12px;
+            #Editar{
+                font: 400 16px 'Roboto';
+                background-color: #6278F7;
+                color: #fff;
+                width: 138px;
+                height: 50px;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                margin-top: 45px;
+                padding-top: 15px;
+                cursor: pointer;
+            }
+            #Apagar{
+                font: 400 16px 'Roboto';
+                background-color: #6278F7;
+                color: #fff;
+                width: 155px;
+                height: 50px;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                margin-top: 45px;
+                padding-top: 15px;
+                cursor: pointer;
+            }
+
+            hr{
+                background-color: #3E4C9B;
+                border: 1px solid #3E4C9B;
+                width: 10px;
+                height: 50px;
+                margin-top: 45px;
+            }
         }
     }
 }

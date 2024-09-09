@@ -9,9 +9,7 @@ export default function Exercicio7() {
     const[cor2, setCor2] = useState('')
     const[verificar, setVerificar] = useState('')
 
-    function cores() {
-        const coresPrimarias = ['amarelo', 'azul', 'vermelho'];
-    
+    function cores() {   
         const cor1Primaria = cor1 === 'amarelo' || cor1 === 'azul' || cor1 === 'vermelho';
         
         const cor2Primaria = cor2 === 'amarelo' || cor2 === 'azul' || cor2 === 'vermelho';
