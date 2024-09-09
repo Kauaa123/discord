@@ -29,7 +29,8 @@
 .mae{
     display: flex;
     justify-content: center;
-
+    flex-direction: column;
+    align-items: center;
     .quadrado2{
         display: flex;
         flex-direction: column;
@@ -67,8 +68,7 @@
         max-width: 216px;
         height: 50px;
         font: 700 16px 'Roboto';
-        margin: 160px;
-        margin-left: -270px;
+        margin-left: 190px;
     }
 
     .resultado-container {
@@ -80,12 +80,6 @@
 }   
 #textoResultado{
         font: 700 18px 'Roboto';
-<<<<<<< HEAD
-        margin-left: 109vh;
-        margin-top: -115px;
-=======
-        margin-top: 2.5rem;
-        text-align: end;
->>>>>>> b4e462a728a7c167179f650c50323c6c103426db
+        margin-top: 2vh;
     }
 }

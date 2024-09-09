@@ -29,6 +29,8 @@
      .mae{
         display: flex;
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
         .quadrado2{
             display: flex;
             flex-direction: column;
@@ -59,7 +61,6 @@
         
 
         #textoResposta{
-            margin-left: 113vh;
             margin-top: 2vh;
             font: 700 18px 'Roboto';
         }

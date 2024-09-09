@@ -28,8 +28,9 @@
     
      .mae{
         display: flex;
+        flex-direction: column;
         justify-content: center;
-
+        align-items: center;
         .quadrado2{
             display: flex;
             align-items: center;
@@ -76,14 +77,13 @@
         
 
         #textoResposta{
-            margin-left: 113vh;
             margin-top: 2vh;
             font: 700 18px 'Roboto';
         }
         .resultado-container {
             display: flex;
             justify-content:end;
-            width: 36%;
+            width: 34%;
             margin-top: 0rem;
     
         } 

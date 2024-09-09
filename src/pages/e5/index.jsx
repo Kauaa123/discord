@@ -77,16 +77,12 @@ export default function Exercicio5() {
                 
             
         </div>
-<<<<<<< HEAD
-=======
         <div className="resultado-container">
             <p id="textoResposta">A média é {resultado}. O aluno passou? {passou}</p>
->>>>>>> b4e462a728a7c167179f650c50323c6c103426db
         </div>
             
         </div>
-        
-            <p id="textoResposta">A média é {resultado}. O aluno passou? {passou}</p>
+
             
     </div>
        

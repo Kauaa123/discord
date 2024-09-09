@@ -63,16 +63,12 @@ export default function Exercicio7() {
                 
             
         </div>
-<<<<<<< HEAD
-=======
         <div className="resultado-container">
             <p id="textoResposta">As cores são primárias? {verificar}</p>
->>>>>>> b4e462a728a7c167179f650c50323c6c103426db
         </div>
             
         </div>
         
-            <p id="textoResposta">As cores são primárias? {verificar}</p>
             
     </div>
        
