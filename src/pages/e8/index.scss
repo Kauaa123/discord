@@ -56,13 +56,20 @@
             border-radius: 12px;
             border-color: #A5A5A5;
         }
-     }     
+     }   
+     .resultado-container {
+        display: flex;
+        justify-content:end;
+        width: 36%;
+        margin-top: 0rem;
+
+    }  
      #textoResposta{
             margin-left: 96vh;
             margin-top: 2vh;
             font: 700 18px 'Roboto';
-        }
-
+    }
+        
         #botaoAzul{
             background-color: #6278F7;
             color: #fff;

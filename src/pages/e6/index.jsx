@@ -68,6 +68,13 @@ export default function Exercicio6() {
                 
             
         </div>
+<<<<<<< HEAD
+=======
+        <div className="resultado-container">
+            <p id="textoResposta">Seu sálario líquido é de {resultado}</p>
+>>>>>>> b4e462a728a7c167179f650c50323c6c103426db
+        </div>
+            
         </div>
         
             <p id="textoResposta">Seu sálario líquido é de {resultado}</p>
