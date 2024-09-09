@@ -12,13 +12,15 @@ export default function Exercicio5() {
     const[passou, setPassou] = useState('')
 
     function calculo() {
-        if (nota1 >= 0 || nota2 >= 0 || nota3 >= 0) {
-            let novo = Number((nota1 + nota2 + nota3) / 3)
-            setResultado(novo.toFixed(2))
-            situacao(novo)
+        if ((nota1 >= 0 && nota1 <= 10) && (nota2 >= 0 && nota2 <= 10) && (nota3 >= 0 && nota3 <= 10)) {
+            let novo = Number((nota1 + nota2 + nota3) / 3);
+            setResultado(novo.toFixed(2));
+            situacao(novo);
+        } else {
+            alert('As notas devem ser entre 0 e 10.');
         }
-        
     }
+    
 
     function situacao(novo) {
         if (novo >= 6) {
@@ -75,6 +77,13 @@ export default function Exercicio5() {
                 
             
         </div>
+<<<<<<< HEAD
+=======
+        <div className="resultado-container">
+            <p id="textoResposta">A média é {resultado}. O aluno passou? {passou}</p>
+>>>>>>> b4e462a728a7c167179f650c50323c6c103426db
+        </div>
+            
         </div>
         
             <p id="textoResposta">A média é {resultado}. O aluno passou? {passou}</p>

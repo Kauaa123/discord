@@ -56,7 +56,15 @@ export default function Exercicio8() {
                 <button id="botaoAzul" onClick={classificacao}>Executar</button>
                 
             
+<<<<<<< HEAD
         </div>
+=======
+            </div>
+            <div className="resultado-container">
+                <p id="textoResposta">A situação para sua temperatura é {situacao}</p>
+            </div>
+            
+>>>>>>> b4e462a728a7c167179f650c50323c6c103426db
         </div>
         
             <p id="textoResposta">A situação para sua temperatura é {situacao}</p>

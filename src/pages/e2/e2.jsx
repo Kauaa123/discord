@@ -38,14 +38,17 @@ export default function Exercicio2() {
         
         <div className="mae">
             <div className="informacoes">
-            <h6>Valor em gramas</h6>
+            <h6>Valor em kilos</h6>
             
             <input id="botao1" type="Number" value={valorS1} onChange={e => setValorS1(e.target.value)} />
             
             <button id="botaoAzul" onClick={calculo}>Executar</button>
             
         </div>
-        <h3 id="textoResposta">Resultado: O total é R${resultado.toFixed(2)}</h3>
+        <div className="resultado-container">
+            <h3 id="textoResposta">Resultado: O total é R${resultado.toFixed(2)}</h3>
+        </div>
+        
         </div>
         
     </div>
