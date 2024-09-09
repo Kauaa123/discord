@@ -54,7 +54,7 @@ export default function Exercicio10() {
             
             
         } else {
-            alert('Por favor, insira valores válidos para peso e altura.')
+            alert('Por favor, insira valores válidos para peso e altura.');
         }
     }
 
@@ -93,19 +93,17 @@ export default function Exercicio10() {
             
             <div className="container">
                 <div className="sub">
-                    <div className="centro">
-                        <div className="esquerda">
-                            <h3>Peso</h3>
-                            <input className="botao1" type="Number" value={peso} onChange={e => setPeso(Number(e.target.value))}/>
-                        </div>
-
-                        <div className="direita">
-                            <h4>Altura</h4>
-                            <input className="botao2" type="Number" value={altura} onChange={e => setAltura(Number(e.target.value))}/>
-                        </div>
-                        
+                    
+                    <div className="esquerda">
+                        <h3>Peso</h3>
+                        <input className="botao1" type="Number" value={peso} onChange={e => setPeso(Number(e.target.value))}/>
                     </div>
-                        <button id="botaoAzul" onClick={calculo}>Executar</button>
+
+                    <div className="direita">
+                        <h4>Altura</h4>
+                        <input className="botao2" type="Number" value={altura} onChange={e => setAltura(Number(e.target.value))}/>
+                    </div>
+                    <button id="botaoAzul" onClick={calculo}>Executar</button>
                 </div>
 
                 <div className="principal">
@@ -116,9 +114,9 @@ export default function Exercicio10() {
                                 </h3>
                                 
                                     <div className="imgs">
-                                         <img id="imgApagar" src="https://images.vexels.com/content/223479/preview/trash-bin-icon-flat-dd5fc7.png" alt=""  onClick={() => remover(index)}/>
+                                         <img id="ola" src="https://images.vexels.com/content/223479/preview/trash-bin-icon-flat-dd5fc7.png" alt=""  onClick={() => remover(index)}/>
 
-                                        <img  id="imgEditar" src="/assets/images/edit.png" alt="" onClick={() => editar(index)} />
+                                        <img  id="ola2" src="/assets/images/edit.png" alt="" onClick={() => editar(index)} />
                                     </div>    
                 </div>
                             ))

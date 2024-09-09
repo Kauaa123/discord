@@ -62,7 +62,7 @@ export default function Frei() {
         "cor": 'b12',
     }]
     return (
-    <div className="menu">
+    <div className="pcp">
 
     
        <Cabecalho></Cabecalho>

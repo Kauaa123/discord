@@ -75,10 +75,9 @@ export default function Exercicio5() {
                 
             
         </div>
-            <p id="textoResposta">A média é {resultado}. O aluno passou? {passou}</p>
         </div>
         
-            
+            <p id="textoResposta">A média é {resultado}. O aluno passou? {passou}</p>
             
     </div>
        

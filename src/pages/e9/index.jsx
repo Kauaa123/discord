@@ -46,10 +46,9 @@ export default function Exercicio9() {
             </div>
         
                 <button id="botaoAzul" onClick={calculo}>Executar</button>
-                <p id="textoResultado">O total a pagar é R$ {resultado}</p>
         </div>
         
-            
+            <p id="textoResultado">O total a pagar é R$ {resultado}</p>
             
     </div>
        

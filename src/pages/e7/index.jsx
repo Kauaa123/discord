@@ -63,10 +63,9 @@ export default function Exercicio7() {
                 
             
         </div>
-            <p id="textoResposta">As cores são primárias? {verificar}</p>
         </div>
         
-            
+            <p id="textoResposta">As cores são primárias? {verificar}</p>
             
     </div>
        

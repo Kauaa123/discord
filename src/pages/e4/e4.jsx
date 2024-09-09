@@ -65,10 +65,10 @@ export default function Exercicio4() {
                 
             
         </div>
-            <p id="textoResposta">Você lerá {nome} em {resultado.toFixed(2)} horas</p>
+        
         </div>
         
-            
+            <p id="textoResposta">Você lerá {nome} em {resultado.toFixed(2)} horas</p>
     </div>
        
        

@@ -68,10 +68,9 @@ export default function Exercicio6() {
                 
             
         </div>
-            <p id="textoResposta">Seu sálario líquido é de {resultado}</p>
         </div>
         
-            
+            <p id="textoResposta">Seu sálario líquido é de {resultado}</p>
             
     </div>
        
