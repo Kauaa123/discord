@@ -1,4 +1,4 @@
-// Exercicio1 Component
+
 import "./e1.scss"; 
 import { Link } from 'react-router-dom';
 import { useState } from "react";
